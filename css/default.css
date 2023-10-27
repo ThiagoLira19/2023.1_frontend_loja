@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cookie&display=swap');
 
 *{
     margin: 0;
@@ -79,4 +81,31 @@ a{
     width: 15px;
     height: 15px;
     border-radius: 50%;
+}
+
+@media(max-width:600px){
+    .logo{
+        display: none;
+    }
+}
+
+.frase1 {
+    font-family: 'Cookie', cursive;
+    font-size: 40pt;
+    padding-top: 100px;
+    color: #fba700;
+}
+
+.frase2 {
+    font-family: 'Alfa Slab One', serif;
+    font-size: 30pt;
+    padding-bottom: 80px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.foto {
+    padding-bottom: 20px;
 }
